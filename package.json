@@ -1,0 +1,14 @@
+{
+  "name": "prisma-migrate-bug-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "prisma migrate dev --preview-feature"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.14.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
